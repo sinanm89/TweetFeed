@@ -3,26 +3,26 @@ TweetFeed
 
 To start right up, open a terminal and clone the project into your desired directory and cd into it.
 
-- git clone https://github.com/sinanm89/TweetFeed.git 
+    git clone https://github.com/sinanm89/TweetFeed.git 
 
-- cd ./TweetFeed/myapp
+    cd ./TweetFeed/myapp
 
 For ubuntu users only, otherwise install these manually.
 
-- sudo apt-get install npm, nodejs, mongodb
+    sudo apt-get install npm, nodejs, mongodb
 
 Install everything and create directories for mongodb.
 
-- npm install
+    npm install
 
-- cd ./config
+    cd ./config
 
-- mkdir mongodb/log/; mkdir mongodb/srv; mkdir mongodb/srv/db; touch mongodb/log/mongod.log;
+    mkdir mongodb/log/; mkdir mongodb/srv; mkdir mongodb/srv/db; touch mongodb/log/mongod.log;
 
 Start mongodb
 
-- mongod -f ./config/mongodb/mongodb.conf
+    mongod -f ./config/mongodb/mongodb.conf
 
 Start the webapp
 
-- node app.js &
+    node app.js &
