@@ -10,7 +10,7 @@ module.exports = {
     'twitterAuth' : {
         'consumerKey' 		: 'hfE0UwYgOygXPIkICjYqjH8oy',
         'consumerSecret' 	: 'YnRMImhXMMst02TRzgJeMNvR1KaWUC91bwuVhS1DRDf3c6EWRE',
-        'callbackURL' 		: 'http://localhost:8080/auth/twitter/callback'
+        'callbackURL' 		: 'http://rahatol.com:8080/auth/twitter/callback'
     }
 
 };
