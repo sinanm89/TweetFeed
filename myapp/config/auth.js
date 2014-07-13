@@ -1,8 +1,3 @@
-/**
- * Created by snn on 7/13/14.
- */
-// config/auth.js
-
 // expose our config directly to our application using module.exports
 module.exports = {
 

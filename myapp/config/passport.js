@@ -1,7 +1,5 @@
 
 // load all the things we need
-var LocalStrategy    = require('passport-local').Strategy;
-var FacebookStrategy = require('passport-facebook').Strategy;
 var TwitterStrategy  = require('passport-twitter').Strategy;
 
 // load up the user model
@@ -23,10 +21,6 @@ module.exports = function(passport) {
             done(err, user);
         });
     });
-
-    // code for login (use('local-login', new LocalStategy))
-    // code for signup (use('local-signup', new LocalStategy))
-    // code for facebook (use('facebook', new FacebookStrategy))
 
     // =========================================================================
     // TWITTER =================================================================

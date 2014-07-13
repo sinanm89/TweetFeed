@@ -1,16 +1,9 @@
-// app/routes.js
-
 module.exports = function(app, passport) {
 
     // route for home page
     app.get('/', function(req, res) {
         res.render('index.ejs'); // load the index.ejs file
     });
-
-    // route for login form
-    // route for processing the login form
-    // route for signup form
-    // route for processing the signup form
 
     // route for showing the profile page
     app.get('/profile', isLoggedIn, function(req, res) {
@@ -24,8 +17,6 @@ module.exports = function(app, passport) {
         req.logout();
         res.redirect('/');
     });
-
-    // facebook routes
 
     // =====================================
     // TWITTER ROUTES ======================
@@ -52,7 +43,6 @@ function isLoggedIn(req, res, next) {
     // if they aren't redirect them to the home page
     res.redirect('/');
 }
-
 
 
 function writeToMongo(req, res, next) {
