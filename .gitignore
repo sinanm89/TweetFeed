@@ -12,6 +12,7 @@
 hs_err_pid*
 
 node_modules/
+myapp/journal/
 myapp/node_modules/
 myapp/node_modules/journal/
 myapp/config/mongodb/srv/mongodb/
